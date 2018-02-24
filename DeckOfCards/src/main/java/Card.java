@@ -1,4 +1,7 @@
-
+/**
+ * @author  Ashish Chandrakant Naik
+ * @version 1.0
+ */
 
 public class Card {
 	
