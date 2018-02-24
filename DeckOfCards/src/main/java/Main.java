@@ -1,3 +1,11 @@
+/**
+ * Player is delt with 52 cards.
+ * Deck.java provides the deck with two public methods dealOneCard() and shuffle()
+ * The deck itself is private to the Deck class.
+ * Card class has its own public methods like getRank(), getSuit() etc.
+ * @author  Ashish Chandrakant Naik
+ * @version 1.0
+ */
 import java.util.Scanner;
 
 public class Main {
