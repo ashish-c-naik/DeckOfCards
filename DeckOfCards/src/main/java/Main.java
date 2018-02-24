@@ -8,6 +8,9 @@ public class Main {
 		System.out.println("Enter name of player");
 		String name = m.nextLine();
 		Player player = new Player(name);
+		System.out.println("\nWelcome \n"+name);
+		System.out.println("\n-----------------");
+		System.out.println("\nYou have 52 cards with you!");
 		System.out.println("\n-----------------\n");
 		System.out.println("\n1- Deal one card");
 		System.out.println("\n2- Shuffle");

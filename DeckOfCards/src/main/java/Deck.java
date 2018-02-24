@@ -52,6 +52,7 @@ public class Deck {
 	    Card res = mCards.remove(randInt(0, mCards.size() - 1));
 	    if (res != null)
 	        mPulledCards.add(res);
+	    System.out.println("\nOnly "+mCards.size()+" cards left in deck! \n");
 	    return res;
 	}
 	public void shuffle() {
